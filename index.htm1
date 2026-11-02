@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>مشاهدة المقطع</title>
+
+<meta property="og:title" content="مشاهدة المقطع">
+<meta property="og:description" content="اضغط لمشاهدة الفيديو">
+<meta property="og:image" content="https://example.com/video.jpg">
+<meta property="og:type" content="website">
+
+<style>
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 40px 15px;
+}
+.card {
+  background: #181818;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 350px;
+  margin: auto;
+}
+button {
+  background: #fe2c55;
+  color: white;
+  border: 0;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>🎬 مشاهدة الفيديو</h2>
+  <p>اضغط لمشاهدة المقطع</p>
+  <button onclick="alert('أضف رابط الفيديو الواضح هنا')">
+    تشغيل الفيديو
+  </button>
+</div>
+
+</body>
+</html>
